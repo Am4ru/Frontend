@@ -1,9 +1,4 @@
 <div class ="row">
-    
-        <button type="button" class="btn btn-dark" routerLink="/editacercade/1" *ngIf="isLogged">
-           Editar usuario
-        </button>
-    
     <div class="col-12 cols-sm-2 col-md-2 col-lg-2">
         <img src={{persona?.img}} class="img-fluid" id="imgperfil">
     </div>
@@ -13,9 +8,14 @@
     </div>
     <div class="col-12 cols-sm-8 col-md-6 col-lg-6">
         <span>
-            <h2 id="acercade">Acerca de mi</h2>
+            <div id="acercad"><h1>Acerca de mi</h1></div>
             <p> {{persona?.descripcion}}
             </p>
         </span>
     </div>
+</div>
+<div class="row" id="button">
+    <button type="button" class="btn btn-dark" routerLink="/editacercade/1" *ngIf="isLogged">
+        Editar usuario
+     </button>
 </div>

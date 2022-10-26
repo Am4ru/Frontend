@@ -2,18 +2,24 @@
     padding: 20px;
 }
 div{
-    background-color: #da8300;
-    color: #10121A;
+    background-color: #10121A;
+    color: #da8300;
     text-align: center;
     font-family: nani;
+    justify-items: center;
+    align-items: center;
 }
 #acercad{
+    background-color: #10121A;
+    color: #da8300;
     margin-top: 5%;
+    
 }
 
 #nombre{
     font-weight: bolder;
     margin-top: 20%;
+    
 }
 #imgperfil{
         width: 100%;
@@ -21,7 +27,11 @@ div{
         left: 2%;
         top: 600px;
     }
-    
-    
-    
+
+#button{
+
+    background-color: #10121A;
+}
+
+ 
     
